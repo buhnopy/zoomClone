@@ -10,7 +10,7 @@ async function getMedia() {
       video: true
     })
     console.log(myStream);
-    myStream.srcObject = myStream;
+    myFace.srcObject = myStream;
   } catch (e) {
     console.log(e);
   }

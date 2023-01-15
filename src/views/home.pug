@@ -6,6 +6,12 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Noom
         link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+        Permissions-Policy (
+            geolocation=(self "https://foo.com"),
+            camera=(self),
+            fullscreen=*
+        )
+        
     body
         header
             h1 Noom
